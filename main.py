@@ -4,6 +4,15 @@ def main():
     Code Your Program here
     ########################################
     """
+    num = (int)(input("Input a number: "))
+    while(True):
+        if(num > 0 and num < 100):
+            number = num
+            break
+        else:
+            num = (int)(input("Input a number: "))
+            
+        
 
     print(number)
 
